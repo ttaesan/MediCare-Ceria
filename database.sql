@@ -173,3 +173,7 @@ INSERT INTO appointments (patient_id, doctor_id, schedule_id, booking_date, comp
 -- Sample Feedback
 INSERT INTO feedbacks (patient_id, doctor_id, rating, comment) VALUES
 (5, 3, 5, 'Pelayanan sangat cepat, dokternya ramah, dan antrean farmasi terpantau jelas!');
+
+
+UPDATE users
+SET password = '$2a$10$Bp46t/HwDyygGaam7LhOgeM5BuBApfhp85Zp6nisErXKQ9A3FYI9y';
